@@ -1,5 +1,5 @@
 import landingImage from "../assets/landing.png";
-import appDownloadImage from "../assets/appDownload.png";
+//import appDownloadImage from "../assets/appDownload.png";
 import SearchBar, { SearchForm } from "@/components/SearchBar";
 import { useNavigate } from "react-router-dom";
 
@@ -35,7 +35,7 @@ const HomePage = () => {
             Download the FoodOrdering App for faster ordering and personalised
             recommendations
           </span>
-          <img src={appDownloadImage} />
+          
         </div>
       </div>
     </div>
@@ -43,3 +43,4 @@ const HomePage = () => {
 };
 
 export default HomePage;
+//<img src={appDownloadImage} />
