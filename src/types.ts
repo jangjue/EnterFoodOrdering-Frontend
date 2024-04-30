@@ -28,6 +28,7 @@ export type User = {
   };
   
   export type OrderStatus =
+    | "cancelled"  
     | "placed"
     | "paid"
     | "inProgress"

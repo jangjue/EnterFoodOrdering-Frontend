@@ -7,6 +7,7 @@ type OrderStatusInfo = {
 };
 
 export const ORDER_STATUS: OrderStatusInfo[] = [
+  { label: "Cancelled And Refunded", value: "cancelled", progressValue: 0 },
   { label: "Placed", value: "placed", progressValue: 0 },
   {
     label: "Awaiting Restaurant Confirmation",
